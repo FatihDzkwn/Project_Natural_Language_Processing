@@ -1,0 +1,25 @@
+{
+  "model_name": "SVM + TF-IDF",
+  "model_type": "Support Vector Machine",
+  "feature_extraction": "TF-IDF",
+  "accuracy": 0.7577639751552795,
+  "training_date": "2026-04-27 18:17:47",
+  "classes": [
+    "Elektronik",
+    "Kecantikan",
+    "Makanan",
+    "Otomotif"
+  ],
+  "max_features": 5000,
+  "kernel": "linear",
+  "test_accuracy": 0.7577639751552795,
+  "preprocessing_steps": [
+    "lowercase",
+    "remove_punctuation",
+    "remove_repeated_characters",
+    "slang_normalization",
+    "stemming"
+  ],
+  "vocabulary_size": 5000,
+  "data_split": "80% train, 20% test"
+}
